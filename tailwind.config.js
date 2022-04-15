@@ -45,7 +45,7 @@ module.exports = {
     boxShadow: {
       red: '0px 0px 20px 0px #f72585',
       blue: '0px 0px 20px 0px #4cefd8',
-      violet: '0px 0px 40px 10px #673ab7',
+      violet: '0px 0px 10px 2px #673ab7',
     },
     extend: {},
   },

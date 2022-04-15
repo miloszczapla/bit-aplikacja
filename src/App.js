@@ -72,14 +72,16 @@ export function App() {
         </Section>
         <Section side='right' topic='Najlepsze Toy Story' img='old_sid.jpg'>
           <h1>
-            Zdecydowanie Toy Story 3, w tej częsci okazało się ze Sid skończył
+            Zdecydowanie Toy Story 3, w tej częsci okazało się, że Sid skończył
             jako śmieciarz.
           </h1>
         </Section>
       </div>
 
       <div className='flex flex-col justify-center py-6'>
-        <h1 className='text-violet text-shadow-red text-xl'>Miłosz Czapla</h1>
+        <h1 className='font-comfortaa text-violet text-shadow-red text-2xl'>
+          Miłosz Czapla
+        </h1>
         <img
           src={require('./assets/milosz.jpg')}
           alt='Ja'
