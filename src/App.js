@@ -15,7 +15,7 @@ export function App() {
         <span className='uppercase text-crimson'>j</span>
         <span className='uppercase text-violet'>a</span>
         <span className='uppercase text-blue'>m</span> się w{' '}
-        <spam className='text-red shadow-text-red'>BIT</spam>a na{' '}
+        <span className='text-red text-shadow-red'>BIT</span>a na{' '}
         <span className=' text-violet text-shadow-violet'>HAMMa</span>
       </h2>
     </>
