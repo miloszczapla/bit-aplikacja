@@ -10,13 +10,15 @@ export function App() {
       <Header />
       <FckBHC />
       <HammImg />
-      <h2 className='text-center text-4xl'>
-        <span className='uppercase text-blue'>w</span>
-        <span className='uppercase text-crimson'>b</span>
-        <span className='uppercase text-light-violet'>i</span>
-        <span className='uppercase text-crimson'>j</span>
-        <span className='uppercase text-violet'>a</span>
-        <span className='uppercase text-blue'>m</span> się w{' '}
+      <h2 className='text-center text-4xl text-white'>
+        <span className='uppercase  text-shadow-blue text-blue'>w</span>
+        <span className='uppercase  text-shadow-crimson text-crimson'>b</span>
+        <span className='uppercase  text-shadow-light-violet text-light-violet'>
+          i
+        </span>
+        <span className='uppercase  text-shadow-crimson text-crimson'>j</span>
+        <span className='uppercase  text-shadow-violet text-violet'>a</span>
+        <span className='uppercase  text-shadow-blue text-blue'>m</span> się w{' '}
         <span className='text-red text-shadow-red'>BIT</span>a na{' '}
         <span className=' text-violet text-shadow-violet'>HAMMa</span>
       </h2>
@@ -69,8 +71,12 @@ export function App() {
       </Section>
 
       <div className='flex flex-col justify-center py-6'>
-        <h1>Miłosz Czapla</h1>
-        <img src='' alt='Ja' className='p-4' />
+        <h1 className='text-violet text-shadow-red text-xl'>Miłosz Czapla</h1>
+        <img
+          src={require('./assets/milosz.jpg')}
+          alt='Ja'
+          className='p-4 mx-auto rounded-3xl'
+        />
       </div>
     </>
   );
