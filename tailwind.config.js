@@ -17,10 +17,8 @@ module.exports = {
       Furore: ['Furore', 'arial'],
     },
     boxShadow: {
-      white: {
-        sm: '3px 3px 3px 3px #ffffff',
-        lg: '3px 3px 6px #ffffff',
-      },
+      'white-sm': '3px 3px 3px 3px #ffffff',
+      'white-lg': '3px 3px 6px 0px #ffffff',
     },
     extend: {},
   },
