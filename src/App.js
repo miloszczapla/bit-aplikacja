@@ -1,11 +1,25 @@
+import { useState } from 'react';
+
 import { Header } from './components/Header';
 import { Section } from './components/Section';
+import line from './assets/profile_vector.svg';
+import face from './assets/face.png';
+import hare from './assets/hare.png';
 
 export function App() {
+  const [scrolledOutside, setScrolledOutside] = useState(false);
   return (
     <>
       <Header />
-
+      <div className='w-auto relative'>
+        <img
+          src={scrolledOutside ? hare : face}
+          alt='milosz'
+          className='absolute -top-[95px]'
+        />
+        <h1 className='text-3xl absolute left-56 -top-9'>Miłosz Czapla</h1>
+        <img src={line} alt='' className='svg absolute w-max' />
+      </div>
       <div className='px-20'>
         <Section topic='Motywacja'>
           <p>
